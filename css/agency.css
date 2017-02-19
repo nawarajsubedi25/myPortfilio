@@ -2,7 +2,7 @@
 /*!
  * Start Bootstrap - Agency v3.3.7+1 (http://startbootstrap.com/template-overviews/agency)
  * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-ees/LICENSE)
  */
 body {
   overflow-x: hidden;
@@ -107,9 +107,9 @@ hr {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  border-radius: 25px;
-  font-size: 18px;
-  padding: 20px 20px;
+  border-radius: 20px;
+  font-size: 16px;
+  padding: 15px 15px;
 }
 .btn-primary:hover,
 .btn-primary:focus,
