@@ -234,8 +234,7 @@ fieldset[disabled] .btn-xl.active {
     color: #369daf;
     outline: none;
 }
-.navbar-custom .navbar-nav > .active > a {
-    border-radius: 0;
+.navbar-custom .navbar-nav > .active > a { 
     color: white;
     background-color: #fed136;
 }
@@ -260,7 +259,7 @@ fieldset[disabled] .btn-xl.active {
         transition: all 0.3s;
     }
     .navbar-custom .navbar-nav > .active > a {
-        border-radius: 3px;
+        border-radius: 10px;
     }
 }
 @media (min-width: 768px) {
@@ -603,7 +602,7 @@ ol.type li a:hover {
     background-color: #fed136;
     color: white;
     border-radius: 100%;
-    border: 7px solid #f1f1f1;
+    border: 7px solid #fcf7f7;
     text-align: center;
 }
 .timeline > li .timeline-image h4 {
@@ -641,6 +640,9 @@ ol.type li a:hover {
 .timeline .timeline-body > p,
 .timeline .timeline-body > ul {
     margin-bottom: 0;
+    font-size:16px;
+    font-weight: 600;
+    font-style: italic;
 }
 @media (min-width: 768px) {
     .timeline:before {
@@ -791,6 +793,7 @@ footer span.copyright {
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     text-transform: none;
+    color:#09ea9b;
 }
 footer ul.quicklinks {
     margin-bottom: 0;
@@ -847,9 +850,11 @@ ul.social-buttons li a:active {
 .portfolio-modal .modal-content h2 {
     margin-bottom: 15px;
     font-size: 3em;
+    color: #8a9cea;
 }
 .portfolio-modal .modal-content p {
     margin-bottom: 30px;
+    
 }
 .portfolio-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
