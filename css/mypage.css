@@ -265,7 +265,7 @@ fieldset[disabled] .btn-xl.active {
 }
 @media (min-width: 768px) {
     .navbar-custom.affix {
-        background-color: #222222;
+        background-color:#7a7e85;
         padding: 10px 0;
     }
     .navbar-custom.affix .navbar-brand {
@@ -782,8 +782,7 @@ section#contact .text-danger {
 /**************************** Footer **************************************/
 
 footer {
-    background: #121d1f;
-    color: #7d8384;
+    background-image: url('../img/footer.jpg');
     padding: 10px 0 10px 0;
     text-align: center;
     line-height: 10px
